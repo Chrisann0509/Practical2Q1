@@ -13,20 +13,17 @@ import java.lang.Math;
 public class P2Q1 {
 
     public static void main(String []args) {
-    	double sqrtNum;
+    	
     	System.out.println("Number    SquareRoot");
     	for(int i=0;i<=20;i+=2){
-    		sqrtNum=sqrtNumber(i);
-    		System.out.printf("%d \t  %.4f \n",i,sqrtNum); //System.out.printf("%d \t %.4f\n",i,Math.sqrt(i));
+    		
+    	System.out.printf("%d \t  %.4f \n",i,Math.sqrt(i)); //System.out.printf("%d \t %.4f\n",i,Math.sqrt(i));
     		
     	}
     	
     }
     
-    public static double sqrtNumber(int a){
-    	
-    	return Math.sqrt(a);
-    }
+ 
     
     
 }
